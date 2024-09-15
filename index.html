@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hospital Care Center</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #333; /* Light background for a clean look */
+      color: #333; /* Dark text for readability */
+    }
+    header {
+      background-color: #003366; /* Dark blue for a professional look */
+      color: white;
+    }
+    .logo {
+      width: 200px;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1920x600?text=Hospital+Banner') no-repeat center center;
+      background-size: cover;
+      color:#003366;
+      padding: 5rem 0;
+    }
+    .hero h1 {
+      
+      margin-bottom: 1rem;
+      font-size: xx-large;
+      font-weight: bold;
+      font: 900;
+      
+    }
+    .hero p {
+      font-size:xx-large;
+    }
+    .hero .btn {
+      margin: 0.5rem;
+    }.hero {
+  background: url('URL_OF_YOUR_BANNER_IMAGE') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 5rem 0;
+  background-color: #333;
+}
+
+
+    .data-analysis {
+      background-color:#333; /* White background for data section */
+      padding: 2rem 0;
+    }
+    .data-analysis h2 {
+      margin-bottom: 2rem;
+    }
+    .data-card {
+      background-color: #f4f6f9; /* Light grey for card background */
+      border: 1px solid #dee2e6;
+      border-radius: .375rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .data-card h3 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .data-card p {
+      margin-bottom: 1rem;
+    }
+    .footer {
+      background-color: #003366; /* Dark blue for footer */
+      color: white;
+    }
+    .social-links a {
+      color: white;
+      margin: 0 0.5rem;
+    }
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header with Logo and Navigation -->
+  <header class="py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <img src="C:\Users\pc\Downloads\Premium Vector _ Hand holding medical hospital icon symbol vector.jpeg" alt="Hospital Logo" class="logo">
+      <nav>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#departments">Departments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#doctors">Doctors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section with Banner Image -->
+<section class="hero text-center">
+    <div class="container">
+      <h1>Welcome to Our Hospital</h1>
+      <p>Providing world-class healthcare services with compassion and excellence.</p>
+      <p>Emergency Contact:07200000000</p>
+      <p>Location:123 Health St, Wellness City,HC 12345</p>
+      <a href="#services" class="btn btn-light btn-lg">Our Services</a>
+      <a href="#contact" class="btn btn-outline-light btn-lg">Contact Us</a>
+    </div>
+  </section>
+  <!-- Our Services Section -->
+  <section id="services" class="container my-5">
+    <h2 class="text-center mb-4">Our Services</h2>
+    <div class="row">
+      <div class="col-md-12 text-center mb-4">
+        <!-- Embed Video -->
+        <iframe width="560" height="315" src="C:\Users\pc\Downloads\Life Science Hub Wales - Hospital illo.gif" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/500x300?text=Service+1" class="card-img-top" alt="Service 1">
+          <div class="card-body">
+            <h5 class="card-title">Emergency Care</h5>
+            <p class="card-text">24/7 emergency services with specialized teams for immediate care.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/500x300?text=Service+2" class="card-img-top" alt="Service 2">
+          <div class="card-body">
+            <h5 class="card-title">Surgical Services</h5>
+            <p class="card-text">State-of-the-art surgical facilities and expert surgeons for various procedures.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/500x300?text=Service+3" class="card-img-top" alt="Service 3">
+          <div class="card-body">
+            <h5 class="card-title">Rehabilitation</h5>
+            <p class="card-text">Comprehensive rehabilitation programs to aid recovery and improve quality of life.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  
+
+  <!-- Data Analysis Section -->
+<section class="data-analysis text-center">
+    <div class="container">
+      <h2>Hospital Performance Data</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="data-card">
+            <h3 class="counter" data-target="100">0</h3>
+            <p>Effective Treatment Success Rate</p>
+            <a href="#services" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="data-card">
+            <h3 class="counter" data-target="1500">0</h3>
+            <p>Discharged Patients This Year</p>
+            <a href="#departments" class="btn btn-primary">View Departments</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="data-card">
+            <h3 class="counter" data-target="98">0</h3>
+            <p>Patient Satisfaction Rate</p>
+            <a href="#doctors" class="btn btn-primary">Meet Our Doctors</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Main Content: Departments -->
+  <section id="departments" class="container my-5">
+    <h2 class="text-center mb-4">Our Departments</h2>
+    <div class="row">
+      <!-- Card 1: Cardiology -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://i.pinimg.com/564x/1a/2b/3c/4d/5e6f7g8h9i.jpg" class="card-img-top" alt="Cardiology Department">
+          <div class="card-body">
+            <h5 class="card-title">Cardiology</h5>
+            <p class="card-text">Advanced heart care and treatments for cardiovascular conditions.</p>
+            <a href="#cardiology" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2: Neurology -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://i.pinimg.com/564x/2b/3c/4d/5e6f7g8h9i.jpg" class="card-img-top" alt="Neurology Department">
+          <div class="card-body">
+            <h5 class="card-title">Neurology</h5>
+            <p class="card-text">Specialized care for neurological disorders and conditions.</p>
+            <a href="#neurology" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3: Pediatrics -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://i.pinimg.com/564x/3c/4d/5e6f7g8h9i.jpg" class="card-img-top" alt="Pediatrics Department">
+          <div class="card-body">
+            <h5 class="card-title">Pediatrics</h5>
+            <p class="card-text">Comprehensive healthcare for children and young adults.</p>
+            <a href="#pediatrics" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Doctor Profiles -->
+  <section id="doctors" class="container my-5">
+    <h2 class="text-center mb-4">Meet Our Doctors</h2>
+    <div class="row">
+      <!-- Doctor 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="C:\Users\pc\Downloads\Premium Photo _ Beautiful smiling female doctor stand in office.jpeg" class="card-img-top" alt="Doctor Jane Doe">
+          <div class="card-body">
+            <h5 class="card-title">Dr. Jane Doe</h5>
+            <p class="card-text">Specialist in Neurology</p>
+            <a href="#jane-doe" class="btn btn-primary">View Profile</a>
+          </div>
+        </div>
+      </div>
+      <!-- Doctor 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="C:\Users\pc\Downloads\Male doctor.jpeg" class="card-img-top" alt="Doctor John Smith">
+          <div class="card-body">
+            <h5 class="card-title">Dr. John Smith</h5>
+            <p class="card-text">Cardiologist</p>
+            <a href="#john-smith" class="btn btn-primary">View Profile</a>
+          </div>
+        </div>
+      </div>
+      <!-- Doctor 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="C:\Users\pc\Downloads\Mature Doctor Prescribes Medical Exam Stock Photo - Image of exam, healthy_ 17099840.jpeg" class="card-img-top" alt="Doctor Alex Johnson">
+          <div class="card-body">
+            <h5 class="card-title">Dr. Alex Johnson</h5>
+            <p class="card-text">Pediatrician</p>
+            <a href="#alex-johnson" class="btn btn-primary">View Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Information -->
+  <section id="contact" class="container my-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <div class="text-center mb-4">
+      <p>If you have any questions, feel free to reach out to us:</p>
+      <p>Email: <a href="mailto:contact@hospitalcarecenter.com">contact@hospitalcarecenter.com</a></p>
+      <div class="social-links">
+        <a href="https://facebook.com" target="_blank">Facebook</a> |
+        <a href="https://twitter.com" target="_blank">Twitter</a> |
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer with Contact Information -->
+  <footer class="footer py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>&copy; 2024 Hospital Care Center. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-right">
+          <a href="#" class="text-white">Privacy Policy</a> | 
+          <a href="#" class="text-white">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
